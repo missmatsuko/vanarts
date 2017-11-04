@@ -1,0 +1,291 @@
+/*BASE**************************************************************************/
+html, body {
+    background-color: #3f7a9c;
+    color: #444;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+h1, h3, h4, h5 {
+    font-family: 'Lateef', serif;
+}
+
+h4 /*section headers*/ {
+    font-size: 2.4em;
+    margin-bottom: 0.04em;
+}
+
+h5 /*footer headers*/ {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+a {
+    color: #57a9d9;
+    transition: all 0.3s;
+}
+
+/*LAYOUT************************************************************************/
+
+/*GENERAL*/
+.horizontal-list li {
+    display: inline-block;
+}
+
+.left {
+    float: right
+}
+
+.right {
+    float: right
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.button {
+    background-color: #3f7a9c;
+}
+
+.button:hover {
+    background-color: #57a9d9;
+}
+
+/*HEADER*/
+.page-header,
+.page-header a {
+    color: #fff;
+}
+
+.page-cta-top {
+    background-color: #222;
+    margin-bottom: 4em;
+    font-size: 0.9em;
+}
+
+.page-cta-top-text {
+    margin: 0;
+    padding: 0.2em 0;
+}
+
+.page-cta-top a {
+    border-bottom: 1px solid #fff;
+}
+
+.page-cta-top a:hover {
+    opacity: 0.8;
+}
+
+.page-nav {
+    margin-bottom: 0.8em;
+}
+
+.page-nav a:hover {
+    opacity: 0.5;
+}
+
+.nav-links li {
+    padding: 1.2em 0 0 3.2em;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 2.4em;
+    font-family: 'Parisienne', sans-serif;
+}
+
+
+/*HOME PAGE*/
+
+.home-deals {
+    background-color: #f2f2f2;
+}
+
+.home-featured-desc {
+    line-height: 2;
+    padding-right: 3.5em;
+}
+
+.home-deals-content {
+    padding: 1em 2em 2em 2em;
+    line-height: 2;
+}
+
+/*TOURS*/
+
+.tours-item {
+    margin-bottom: 2em;
+    background-color: #f2f2f2;
+}
+
+.tours-item:last-child {
+    margin-bottom: 0;
+}
+
+.tours-item-desc {
+    margin-top: 1.2em;
+    padding-left: 2em;
+}
+
+.tours-item .button {
+    padding: 0.5em 2em;
+    font-size: 1.2em;
+    margin-top: 0.2em;
+}
+
+.tours-image {
+    background-color: #fff;
+}
+
+/*GALLERY*/
+
+.gallery img {
+    margin-bottom: 2em;
+}
+
+.gallery img:last-child {
+    margin-bottom: 0;
+}
+
+/*TESTIMONIAL*/
+
+.testimonials-item {
+    background-color: #f2f2f2;
+    padding: 2em 0 0.8em 0;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.testimonials-item:last-child {
+    margin-bottom: 0;
+}
+
+.testimonials-text {
+    font-size: 1.5em;
+    padding: 0 4em;
+}
+
+/*CONTACT*/
+
+.page-contact {
+    background-color: #f2f2f2;
+}
+
+.page-contact iframe {
+    border: 0;
+    width: 100%;
+    height: 27em;
+    padding: 0;
+}
+
+.page-contact .contact-details {
+    padding: 2em 1em;
+}
+
+.page-contact .contact-details ul {
+    margin-top: 1em;
+}
+
+.page-contact .contact-details li {
+    margin-bottom: 1.5em;
+}
+
+/*FOOTER*/
+
+.page-footer {
+    margin-top: 2em;
+    background-color: #222;
+    color: #ddd;
+    padding: 2em 0;
+}
+
+.contact-details li {
+    margin-bottom: 0.8em;
+}
+
+.social-links li {
+    font-size: 1.5em;
+    padding-right: 0.5em;
+}
+
+.copyright-statement {
+    margin-top: 2em;
+    text-align: center;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+/*MODULE************************************************************************/
+
+.page-wrapper {
+    background-color: #fff;
+    border: 2em solid #fff;
+    box-shadow: 1px 1px 5px #333;
+}
+
+.page-content {
+    margin-top: 2em;
+}
+
+/*HERO*/
+.page-hero {
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-text {
+    color: #fff;
+    margin: 0.5em 0.6em;
+    font-size: 5em;
+    font-family: 'Parisienne', sans-serif;
+}
+
+.hero-form-container {
+    background-color: #f2f2f2; 
+    background-color: rgba(265,265,265,0.5);
+    padding: 1.5em 3em 2em 2em;
+    height: 100%;
+}
+
+.hero-form-title {
+    font-size: 2.5em;
+}
+
+.hero-form-container label {
+    font-size: 1.2em;
+}
+
+.hero-form-container textarea {
+    height: 8em;
+}
+
+.hero-form-container input[type="submit"]{
+    width: 100%;
+    margin-top: 0.5em;
+    font-size: 1.5em;
+    padding: 0.6em 0;
+}
+
+
+
+
+
+/*STATE*************************************************************************/
+
+/*THEME*************************************************************************/
+
+

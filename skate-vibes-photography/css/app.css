@@ -1,0 +1,459 @@
+/*BASE**************************************************************************/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+    font-size: 10px;
+    background-color: #eee;
+    color: #444;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+/*hero area header*/
+h1 {
+    font-weight: 700;
+    line-height: 1;
+    font-size: 5.5em;
+    margin-top: 1em;
+}
+
+/*hero area subheader*/
+h2 {
+    font-size: 2em;
+}
+
+/*section headers*/
+h3 {
+    text-align: center;
+}
+
+/*section subheaders*/
+h4 {
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+/*contact and footer headers*/
+/*h5 {
+}
+
+p {
+}
+
+a {
+}
+
+a:hover {
+}*/
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*LAYOUT************************************************************************/
+
+/*utilities and for more than 1 section*/
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.more-space {
+    margin-bottom: 1.5em;
+}
+
+.button {
+    border-radius: 8px;
+}
+
+.page-testimonials,
+.page-contact,
+.page-cta-bottom{
+    background-color: #ddd;
+}
+
+.page-testimonials,
+.page-services,
+.page-contact,
+.page-clients,
+.page-footer,
+.page-cta-bottom {
+    padding: 6em 0;
+}
+
+.page-hero .button,
+.page-cta-bottom .button{
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+/*used to place things on top of slideshow images*/
+.above {
+    position: relative;
+    z-index: 100;
+}
+
+.page-nav a,
+.page-hero a{
+    color: #fff;
+}
+
+.page-nav a:hover,
+.page-hero a:hover,
+.page-footer a:hover,
+.page-testimonials a:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+
+/*Header*****************************/
+
+.page-cta-top {
+    background-color: #444;
+    color: #fff;
+    text-align: right;
+    height: 2.5em;
+    padding-top: 0.4em;
+}
+
+/*Navigation*************************/
+.page-nav {
+    margin-top: 1.6em;
+    font-size: 2.5em;
+    position: absolute;
+    width: 100%;
+}
+
+.page-nav ul {
+    float: right;
+}
+
+.page-nav li {
+    display: inline-block;
+    padding: 0 1em;
+}
+
+
+/*Hero*******************************/
+
+.page-hero {
+    color: #fff;
+    height: 100%;
+}
+
+.slideshow-arrows {
+    margin-top: 40em;
+}
+
+.page-hero .fa {
+    font-size: 9em;
+}
+
+.page-hero .button {
+    margin-top: 0.5em;
+}
+
+/*SLIDESHOW*/
+.slideshow-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+}
+
+.slideshow-container img {
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+/*start with one first photo showing*/
+#slide-2,
+#slide-3,
+#slide-4,
+#slide-5,
+#slide-6,
+#slide-7,
+#slide-8,
+#slide-9 {
+    display: none;
+}
+
+/*Testimonials***********************/
+
+.page-testimonials {
+    min-height: 38em;
+}
+
+.page-testimonials p:first-child {
+    font-size: 1.8em;
+}
+
+.page-testimonials p:last-child {
+    margin-top: 2em;
+    font-size: 1.3em;
+    color: #999;
+}
+
+.page-testimonials a {
+    font-size: 2em;
+    color: #444;
+    margin-top: 2.5em;
+}
+
+.page-testimonials-text {
+    text-align: center;
+}
+
+/*start with one first testimonial showing*/
+#testimonial-2,
+#testimonial-3,
+#testimonial-4 {
+    display: none;
+}
+
+/*Services***************************/
+.page-services .callout {
+    width: 27.5em;
+    margin: 0 auto;
+    height: 67em;
+}
+
+.page-services img {
+    border: 2px solid #ccc;
+    padding: 2px;
+}
+
+.page-services-text {
+    margin: 1em 1.5em;
+}
+
+.page-services-text p {
+    font-size: 1.5em;
+}
+
+.page-services-text p:last-child {
+    font-size: 2em;
+    color: #999;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.page-services ul {
+    list-style-type: circle;
+    font-size: 2em;
+    margin-left: 1.1em;
+}
+
+.page-services .button {
+    width: 19em;
+    margin: 1.5em auto 0 auto;
+}
+
+.page-services .fa {
+    font-size: 22em;
+    margin-top: 0.35em;
+}
+
+.policy-text {
+    font-size: 2em;
+    line-height: 1.8;
+    margin: 5em 0 0 2em;
+}
+
+/*Contact****************************/
+
+.page-contact {
+    min-height: 100%;
+    max-height: 2000px;
+}
+
+.map {
+    border: 1em solid #fff;
+    width: 100%;
+    height: 28.7em;
+    margin-top: 3.2em;
+}
+
+.page-contact-text {
+    margin-top: 3em;
+}
+
+.page-contact-text p {
+    font-size: 1.5em;
+}
+
+.page-contact label {
+    font-size: 1.8em;
+}
+
+.page-contact textarea {
+    height: 10em;
+}
+
+.page-contact input[type=submit] {
+    width: 15.3em;
+    margin-top: 2em;
+}
+
+/*Clients****************************/
+
+.page-clients img {
+    opacity: 0.7;
+}
+
+.page-clients img:hover {
+    opacity: 1;
+    transition: opacity 1.2s;
+}
+
+.page-clients .more-space {
+    margin-bottom: 0.8em;
+}
+
+/*Bottom CTA**************************/
+.page-cta-bottom {
+    text-align: center;
+}
+
+/*Back To Top Button******************/
+.back-to-top-button a{
+    font-size: 7em;
+    color: #fff;
+    position: fixed;
+    bottom: 0.5em;
+    right: 0.5em;
+    opacity: 0.8;
+}
+
+.back-to-top-button a:hover {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+/*Footer*****************************/
+
+.page-footer {
+    background-color: #444;
+    color: #fff;
+}
+
+.page-footer p,
+.page-footer a{
+    font-size: 1.2em;
+}
+
+.page-footer a {
+    color: #fff;
+    line-height: 2
+}
+
+.social-links a {
+    font-size: 2.2em;
+    padding-right: 0.9em;
+}
+.social-links li {
+    float: left;
+}
+
+.copyright-statement {
+    padding-top: 2em;
+}
+
+.copyright-statement p {
+    text-align: center;
+    line-height: 0.1;
+}
+
+
+/*****FORM CONFIRMATION PAGE & ERROR PAGE******/
+
+.page-form-result {
+    height: 100%;
+    margin-top: 6em;
+}
+
+.page-form-result p {
+    font-size: 1.5em;
+}
+
+.page-form-result .fa {
+    font-size: 22em;
+    margin-top: 0.35em;
+}
+
+/***CUSTOM responsive bits***/
+/* Small screens */
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { 
+    /*hero*/
+    .slideshow-container img {
+        width: auto;
+        height: 100%;
+    }
+
+    #logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .page-nav a {
+        font-size: 2em;
+    }
+
+    /*services*/
+    .page-services-text {
+        margin: auto;
+    }
+
+    .page-services .button {
+        margin-bottom: 5em;
+    }
+
+
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+/* Medium screens */
+@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+/* Large screens */
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+/* XLarge screens */
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+/* XXLarge screens */
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
+
+
+
+/*MODULE************************************************************************/
+
+/*STATE*************************************************************************/
+
+/*THEME*************************************************************************/
+
+

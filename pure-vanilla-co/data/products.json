@@ -1,0 +1,43 @@
+{"product":[
+    {
+    	"name":"Madagascar&nbsp;Beans + Kelowna&nbsp;Vodka",
+    	"category":"Vanilla Extract",
+    	"image":"img/vanilla-bottle.jpg",
+    	"description":"100% pure vanilla extract made from organic, fair-trade Madagascar vanilla beans and locally-distilled Kelowna vodka. Madagascar vanilla is known for its rich and creamy notes, while vodka's neutral taste profile allows the bean's unique features to shine through. This vanilla extract is ideal for baking desserts such as cakes, pies, and cookies. 200mL bottle.",
+    	"stock":63,
+    	"price":{
+    		"regular":20.00
+    	}
+    },
+    {
+    	"name":"Mexico&nbsp;Beans + Vancouver&nbsp;Bourbon",
+    	"category":"Vanilla Extract",
+    	"image":"img/vanilla-bottle.jpg",
+    	"description":"100% pure vanilla extract made from organic, fair-trade Mexico vanilla beans and locally-distilled Vancouver Bourbon. Mexico vanilla is known for its bold, dark, and smokey flavours, which is further accented by bourbon's smokiness . This vanilla extract is ideal for cooking savoury dishes such as BBQ ribs, mashed potatoes, and roasted veggies. 200mL bottle.",
+    	"stock":163,
+    	"price":{
+    		"regular":20.00,
+    		"special":16.99
+    	}
+    },
+    {
+    	"name":"Tonga&nbsp;Beans + Vancouver&nbsp;Island Rum",
+    	"category":"Vanilla Extract",
+    	"image":"img/vanilla-bottle.jpg",
+    	"description":"100% pure vanilla extract made from organic, fair-trade Tonga vanilla beans and locally-distilled Vancouver Island Rum. Tonga vanilla is known for its earthy and fruity flavours, which is complemented by rum's molasses undertones. This vanilla extract is ideal for making creamy desserts such as ice creams, puddings, and cream-filled donuts. 200mL bottle.",
+    	"stock":25,
+    	"price":{
+    		"regular":20.00
+    	}
+    },
+    {
+    	"name":"3-Piece Gift Set",
+    	"category":"Gift Set",
+    	"image":"img/3-piece-vanilla-gift-set.jpg",
+    	"description":"Can't decide on just one of our vanilla extracts? Looking for a gift for your dessert-fiend friend? This gift set contains 50mL bottles of 3 of our vanilla extracts to try and enjoy: Madagascar Beans + Kelowna Vodka, Mexico Beans + Vancouver Bourbon, and Tonga Beans + Vancouver Island Rum. 3 x 50mL bottle.",
+    	"stock":100,
+    	"price":{
+    		"regular":18.00
+    	}
+    }
+]}

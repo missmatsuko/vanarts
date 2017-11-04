@@ -1,0 +1,656 @@
+/***********
+    GRID
+***********/
+
+.row {
+    width: 960px; 
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.row:before,
+.row:after {
+    content: " ";  
+    display: table; 
+}
+
+.row:after {
+    clear: both;
+}
+
+.row .row{
+    width: auto;
+    margin: 0 -10px;
+}
+
+.columns, 
+.column {
+    position: relative;
+    float: left;
+    padding: 0 10px; 
+}
+
+.span-1 {
+    width: 8.3333%;
+}
+
+.span-2 {
+    width: 16.6667%;
+}
+
+.span-3 {
+    width: 25%;
+}
+
+.span-4 {
+    width: 33.3333%;
+}
+
+.span-5 {
+    width: 41.6667%;
+}
+
+.span-6 {
+    width: 50%;
+}
+
+.span-7 {
+    width: 58.3333%;
+}
+
+.span-8 {
+    width: 66.6667%;
+}
+
+.span-9 {
+    width: 75%;
+}
+
+.span-10 {
+    width: 83.3333%;
+}
+
+.span-11 {
+    width: 91.6667%;
+}
+
+.span-12 {
+    width: 100%;
+}
+
+
+.offset-1 {
+    margin-left: 8.3333%;
+}
+
+.offset-2 {
+    margin-left: 16.6667%;
+}
+
+.offset-3 {
+    margin-left: 25%;
+}
+
+.offset-4 {
+    margin-left: 33.3333%;
+}
+
+.offset-5 {
+    margin-left: 41.6667%;
+}
+
+.offset-6 {
+    margin-left: 50%;
+}
+
+.offset-7 {
+    margin-left: 58.3333%;
+}
+
+.offset-8 {
+    margin-left: 66.6667%;
+}
+
+.offset-9 {
+    margin-left: 75%;
+}
+
+.offset-10 {
+    margin-left: 83.3333%;
+}
+
+.offset-11 {
+    margin-left: 91.6667%;
+}
+
+
+.push-1 {
+    left: 8.3333%;
+}
+
+.push-2 {
+    left: 16.6667%;
+}
+
+.push-3 {
+    left: 25%;
+}
+
+.push-4 {
+    left: 33.3333%;
+}
+
+.push-5 {
+    left: 41.6667%;
+}
+
+.push-6 {
+    left: 50%;
+}
+
+.push-7 {
+    left: 58.3333%;
+}
+
+.push-8 {
+    left: 66.6667%;
+}
+
+.push-9 {
+    left: 75%;
+}
+
+.push-10 {
+    left: 83.3333%;
+}
+
+.push-11 {
+    left: 91.6667%;
+}
+
+
+.pull-1 {
+    right: 8.3333%;
+}
+
+.pull-2 {
+    right: 16.6667%;
+}
+
+.pull-3 {
+    right: 25%;
+}
+
+.pull-4 {
+    right: 33.3333%;
+}
+
+.pull-5 {
+    right: 41.6667%;
+}
+
+.pull-6 {
+    right: 50%;
+}
+
+.pull-7 {
+    right: 58.3333%;
+}
+
+.pull-8 {
+    right: 66.6667%;
+}
+
+.pull-9 {
+    right: 75%;
+}
+
+.pull-10 {
+    right: 83.3333%;
+}
+
+.pull-11 {
+    right: 91.6667%;
+}
+
+/***********
+  UTILITIES
+***********/
+
+.cf:before,
+.cf:after {
+    content: " ";  
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+left {
+    float: left;
+}
+
+right {
+    float: right;
+}
+
+
+/***********
+    BASE
+***********/
+*,*::before,*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url('../img/bg-black-linen.png');
+    background-attachment: fixed;
+    background-color: #000;
+}
+
+body {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Fanwood Text', serif;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    font-size: 0.8em;
+    font-weight: normal;
+    margin: 5px 0 0 90px;
+}
+
+p {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 200;
+}
+
+a {
+    color: #ddd;
+}
+
+
+/***********
+  LAYOUT
+***********/
+
+/*header*/
+
+.page-header img {
+    margin-top: 15px;
+}
+
+/*navigation*/
+
+.page-nav ul {
+    list-style: none;
+    float: right;
+}
+
+.page-nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.page-nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.77em;
+    font-family: 'Fanwood Text', serif;
+    letter-spacing: 0.25em;
+}
+
+.page-nav a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/*hero*/
+.page-hero {
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.page-home {
+    background-image: url('../img/menu/photo-appetizer.jpg');
+}
+.page-about {
+    background-image: url('../img/photo-interior.jpg');
+}
+.page-menu {
+    background-image: url('../img/photo-pot.jpg');
+}
+.page-chef {
+    background-image: url('../img/photo-chef-tony.jpg');
+    background-position: top;
+}
+.page-contact {
+    background-image: url('../img/photo-exterior.jpg');
+}
+.page-reservation {
+    background-image: url('../img/photo-spaghetti.jpg');
+}
+
+.img-caption {
+    position: relative;
+    top: 160px;
+    height: 270px;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+}
+
+.img-caption h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.img-caption p {
+    margin: 5px 0 0 0;
+    line-height: 1.7;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+.img-caption ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin-left: 40px;
+}
+.img-caption li {
+    list-style: none;
+    line-height: 1.7;
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/*content*/
+
+
+.content {
+    padding: 40px 40px 60px 40px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.article img {
+    margin-left: -10px;
+    width: 280px;
+}
+
+.article p {
+    font-size: 0.9em;
+    color: #888;
+    line-height: 1.3;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: -18px;
+    left: 0;
+    width: 280px;
+    height: 187px;
+    padding: 30px;
+    opacity: 0;
+}
+
+.article p:hover {
+    opacity: 1;
+}
+
+.content-right {
+    border-left: 1px solid #fff;
+    padding: 0 0 50px 50px;
+}
+
+.content-right h1 {
+    margin: -10px 0;
+    padding: 0;
+}
+
+.content-right a {
+    text-decoration: none;
+    color: #888;
+}
+
+.content-right p {
+    line-height: 1.3;
+}
+
+/*about*/
+.col-text p {
+    padding: 0 20px;
+}
+
+.twitter-feed p {
+    margin-bottom: -10px;
+}
+
+
+/*menu*/
+
+.menu .content {
+    padding-bottom: 0;
+}
+.menu .content:last-child {
+    padding-bottom: 30px;
+}
+
+.page-menu ul {
+    float: left;
+    padding-top: 20px;
+    margin: 0;
+}
+.page-menu li {
+    padding: 5px;
+}
+
+.page-menu a {
+    background-color: #444;
+    display: block;
+    width: 116px;
+    padding: 8px 0;
+    text-decoration: none;
+}
+
+.page-menu a:hover {
+    background-color: #aaa;
+}
+
+.menu img {
+    max-width: 110%;
+    margin-left: -10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+.menu ul li ul li {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #666;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+.menu p {
+    text-align: right;
+}
+
+.menu .fa {
+    color: #888;
+}
+
+.menu a:last-child {
+    text-decoration: none;
+    color: #888;
+    font-size: 0.8em;
+}
+
+/*chef*/
+.twitter-feed ul {
+    list-style: none;
+    float: right;
+}
+.twitter-feed li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+/*contact page*/
+iframe {
+    width: 100%;
+    height: 550px;
+    margin-left: -10px;
+    border: 0;
+}
+
+label {
+    width: 100%;
+}
+
+form ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+form li {
+    margin: 0;
+    padding: 15px 0;
+}
+
+form input,
+form textarea {
+    width: 100%;
+}
+
+input,
+textarea {
+    color: #666;
+    font-size: 0.9em;
+    padding: 0 10px;
+    background-color: #dedede;
+    border: none;
+}
+
+input[type="submit"] {
+    color: #333;
+    padding: 0;
+    border: 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #999;
+}
+
+[type="date"],
+[type="time"],
+[type="text"],
+[type="textarea"] {
+    color: #666;
+}
+
+#contact-form {
+    height: 500px;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#booking-form {
+    padding: 0 50px;
+}
+
+#booking-form textarea {
+    height: 175px;
+}
+
+#booking-form input[type="submit"] {
+    width: 30%;
+    float: right;
+    margin-top: 20px;
+}
+
+#booking-form ul:nth-child(1) li,
+#booking-form ul:nth-child(2) li {
+    float: left;
+    width: 33.3333%;
+    padding: 20px;
+}
+
+#booking-form ul:nth-child(1) li,
+#booking-form ul:nth-child(2) li,
+#booking-form ul:nth-child(3) li:first-child,
+#booking-form ul:nth-child(3) li:nth-child(2) {
+    display: block;
+}
+
+#booking-form ul:nth-child(3) li:first-child {
+    padding: 240px 20px 0 20px;
+}
+#booking-form ul:nth-child(3) li:nth-child(2) {
+    padding: 20px;
+}
+
+
+
+
+/*footer*/
+
+.page-footer {
+    padding-top: 20px;
+}
+
+.page-footer p,
+.page-footer a {
+    font-size: 0.85em;
+    color: #666;
+    text-align: center;
+}
+
+.page-footer a:hover {
+    color: #888;
+}
+
+.page-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.page-footer li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.page-footer .fa {
+    padding-top: 21px;
+}
